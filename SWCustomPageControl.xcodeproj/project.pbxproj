@@ -13,6 +13,7 @@
 		5326F8AC1C2CD5C800340848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5326F8AA1C2CD5C800340848 /* Main.storyboard */; };
 		5326F8AE1C2CD5C800340848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5326F8AD1C2CD5C800340848 /* Assets.xcassets */; };
 		5326F8B11C2CD5C800340848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5326F8AF1C2CD5C800340848 /* LaunchScreen.storyboard */; };
+		5326F8BA1C2CD5D600340848 /* SWCustomPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5326F8B91C2CD5D600340848 /* SWCustomPageControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5326F8AD1C2CD5C800340848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5326F8B01C2CD5C800340848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5326F8B21C2CD5C800340848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5326F8B81C2CD5D600340848 /* SWCustomPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCustomPageControl.h; sourceTree = "<group>"; };
+		5326F8B91C2CD5D600340848 /* SWCustomPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCustomPageControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		5326F8A01C2CD5C800340848 /* SWCustomPageControl */ = {
 			isa = PBXGroup;
 			children = (
+				5326F8B81C2CD5D600340848 /* SWCustomPageControl.h */,
+				5326F8B91C2CD5D600340848 /* SWCustomPageControl.m */,
 				5326F8A41C2CD5C800340848 /* AppDelegate.h */,
 				5326F8A51C2CD5C800340848 /* AppDelegate.m */,
 				5326F8A71C2CD5C800340848 /* ViewController.h */,
@@ -151,6 +156,7 @@
 			files = (
 				5326F8A91C2CD5C800340848 /* ViewController.m in Sources */,
 				5326F8A61C2CD5C800340848 /* AppDelegate.m in Sources */,
+				5326F8BA1C2CD5D600340848 /* SWCustomPageControl.m in Sources */,
 				5326F8A31C2CD5C800340848 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
